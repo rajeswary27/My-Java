@@ -10,7 +10,7 @@ public class Class2 extends Class1{
 	}
 	public static void main(String[] args) {
 		
-		Class1 ob1=new Class1(5,10);
+		Class2 ob1=new Class2(5,10);
 		ob1.display();
 		
 
