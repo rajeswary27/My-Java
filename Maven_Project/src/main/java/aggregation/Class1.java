@@ -4,18 +4,19 @@ public class Class1 {
 	
 	int a;
 	int b;
+	int c;
 	
-	public Class1()
+	public void Class1(int a,int b)
 	{
-		int c=a+b;
+		this.a=a;
+		this.b=b;
 		
-		System.out.println(c);
 		
 	}
 	
 	public void display()
 	{
-		System.out.println("Class1");
+		System.out.println(a+b);
 	}
 
 }
